@@ -2,7 +2,7 @@
 import static java.lang.Math.*;
 import java.util.Scanner;
 
-public class Perceptron {
+public class PerceptronXor {
 	public static void main(String args[]) {
 		Neuronio neuronio = new Neuronio();
 
@@ -10,7 +10,7 @@ public class Perceptron {
 		int x2[] = new int[4]; // 2a entrada
 		int d[] = new int[4]; // saida desejada
 
-		// Conjunto de Treino : OR
+		// Conjunto de Treino : xor
 		x1[0] = 0;
 		x2[0] = 0;
 		d[0] = 0;
@@ -25,7 +25,7 @@ public class Perceptron {
 		
 		x1[3] = 1;
 		x2[3] = 1;
-		d[3] = 1;
+		d[3] = 0;
 
 		// Treinamento
 		int epocas = 0, i;

@@ -2,3 +2,8 @@
 .classpath
 .settings
 .class
+/REPOSTAS.TXT
+/PerceptronAnd.class
+/PerceptronXor.class
+/PerceptronReconheceLetra.class
+/NeuronioLetra.class
