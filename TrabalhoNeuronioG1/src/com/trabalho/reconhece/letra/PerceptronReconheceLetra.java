@@ -1,3 +1,4 @@
+package com.trabalho.reconhece.letra;
 //Exemplo - Rede Perceptron com apenas 1 neuronio
 import static java.lang.Math.*;
 

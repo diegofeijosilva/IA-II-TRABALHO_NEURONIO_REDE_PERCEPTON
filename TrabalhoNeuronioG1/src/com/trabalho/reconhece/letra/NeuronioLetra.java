@@ -1,3 +1,4 @@
+package com.trabalho.reconhece.letra;
 public class NeuronioLetra {
 	// Neuronio para 12 entradas
 
